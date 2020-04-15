@@ -1,5 +1,4 @@
 # nodejs-design-patterns
-## Explanations
 ### Builder Pattern
 A builder will use functions to set the class properties instead of arguments
 Instead of passing parameters to class, we will use chained functions.
@@ -26,4 +25,5 @@ nodejs.
 - Like contexts in Reaact
 - While exporting the class module, export it with the new keyword
 ### Strategy Pattern
-- A function `changeStrategy()` is inside the class which will decide the working of the class
+- A function called `changeStrategy()` inside the class will decide the working of the class.
+- Think about strategy in Passport.js which will behave based on strategy like Google or facebook
