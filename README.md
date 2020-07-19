@@ -1,4 +1,5 @@
-# nodejs-design-patterns
+# Node JS Design Patterns
+> Go with the **Factory pattern** for most cases
 ### Builder Pattern
 A builder will use functions to set the class properties instead of arguments
 Instead of passing parameters to class, we will use chained functions.
