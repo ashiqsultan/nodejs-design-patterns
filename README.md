@@ -1,9 +1,10 @@
 # Node JS Design Patterns
 > Go with the **Factory pattern** for most cases
 ### Builder Pattern
-A builder will use functions to set the class properties instead of arguments
-Instead of passing parameters to class, we will use chained functions.
+A builder will use functions to set the class properties instead of arguments.</br>Instead of passing parameters to class, we will use chained functions.
 Suppose a class takes lot of parameters, its hard to find out what the parameters are representing.
+
+The builder pattern is a design pattern designed to provide a flexible solution to various object creation problems in object-oriented programming. The intent of the Builder design pattern is to separate the construction of a complex object from its representation.
 ### Command Pattern
 - Its like when you want to use a CLI for building an object. 
 - Every command is an encapsulated class
