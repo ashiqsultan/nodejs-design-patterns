@@ -12,7 +12,8 @@ Suppose a class takes lot of parameters, its hard to find out what the parameter
 - All the commands are invoked with a switch statement in an another class `conductor`
 - The conductor class gives us the flexibility to do other operations with the commands such as maintaining a history of commands etc
 ### Factory Pattern
-Its like you use one class to call other clases based on argumets passed to the factory.
+Its like you use one class create instace of another clases based on argumets passed to the factory. The Factory Method allows the client to delegate object creation while still retaining control over which type to instantiate.
+Example: Suppose you have three types of user Classes in your app. (guest, employee, admin). You will create a `userFactory` function which based on the params passed to it creates an Instance of a user type out of the three.
 ### Observer Pattern
 - Its like an internal pub/sub service which can work with the async nature of 
 nodejs.
